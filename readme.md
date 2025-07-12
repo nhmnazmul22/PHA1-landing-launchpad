@@ -1,4 +1,4 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-001 😎
+## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-00
 
 ### 📅 Deadline For 60 marks: 11th July, 2025 (11:59 pm ⏱️)
 
@@ -78,13 +78,13 @@
 
 - Star icon
 - Title and Subtitle
-- Reviewer Image, Name, and Date 
+- Reviewer Image, Name, and Date
 
  <img width="100%" src="./ui/review.png">
 
 ---
 
-### 8. Button Animation 
+### 8. Button Animation
 
 - Hover effect or animation on the all the buttons.
 
