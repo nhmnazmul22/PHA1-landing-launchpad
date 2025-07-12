@@ -33,6 +33,11 @@
   border: 0;
   outline: 0;
   cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-animation:hover {
+  transform: scale(1.05);
 }
 
 .text-primary {
@@ -40,6 +45,13 @@
 }
 .text-dark {
   color: #252432;
+}
+.text-dark-2 {
+  color: #25243280;
+}
+
+.sec-m {
+  margin: 60px 0px;
 }
 
 /* Navbar Styling */
@@ -73,4 +85,42 @@
 
 .header-contents button {
   margin-top: 40px;
+}
+
+/* Action Section Styling */
+.action-sec {
+  margin-top: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-contents {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+
+.action-contents h4 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.action-contents p {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.action-img {
+  border-radius: 50px;
+  width: 400px;
+  height: 330px;
+  overflow: hidden;
+}
+
+.action-img img {
+  max-width: 100%;
+  height: auto;
 }
