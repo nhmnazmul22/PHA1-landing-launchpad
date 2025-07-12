@@ -16,6 +16,10 @@
   font-family: "Raleway", sans-serif;
 }
 
+body {
+  background: #f5f8ff;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -51,7 +55,7 @@
 }
 
 .sec-m {
-  margin: 60px 0px;
+  margin: 120px 0px;
 }
 
 /* Navbar Styling */
@@ -89,7 +93,6 @@
 
 /* Action Section Styling */
 .action-sec {
-  margin-top: 120px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,14 +116,136 @@
   line-height: 30px;
 }
 
-.action-img {
+.action-img img {
   border-radius: 50px;
   width: 400px;
   height: 330px;
-  overflow: hidden;
 }
 
 .action-img img {
   max-width: 100%;
   height: auto;
+}
+
+/* Productive Section Styling */
+.productive-sec {
+  background: #4d47ff1e;
+  padding: 50px 80px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.productive-sec h3 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.pro-contents {
+  max-width: 860px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.pro-info-box h4 {
+  font-size: 80px;
+  font-weight: 700;
+}
+
+.pro-info-box p {
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* Users Feedback Styling */
+.user-feedback-sec h3 {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.feedback-contents {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.feedback {
+  background: #ffffff7a;
+  border-radius: 10px;
+  padding: 24px;
+  border: 1px solid #f2eded;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.feedback-text-content h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.feedback-text-content p {
+  font-size: 16px;
+  margin-top: 8px;
+  line-height: 22px;
+}
+.reviewer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.reviewer img {
+  border-radius: 100%;
+}
+
+.reviewer-info h5 {
+  font-size: 16px;
+  color: #757575;
+  font-weight: 600;
+}
+
+.reviewer-info p {
+  font-size: 16px;
+  color: #b3b3b3;
+  font-weight: 400;
+}
+
+/* Focus Section Styling */
+.focus-sec {
+  padding: 70px 150px;
+  background: #ffffff;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.focus-head-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.focus-head-content h3 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.focus-head-content p {
+  font-size: 16px;
+  color: #00000079;
+}
+
+.focus-banner img {
+  margin-top: 20px;
+  border-radius: 48px;
 }
