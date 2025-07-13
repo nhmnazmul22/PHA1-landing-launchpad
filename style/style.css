@@ -20,6 +20,14 @@ body {
   background: #f5f8ff;
 }
 
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
@@ -248,4 +256,89 @@ body {
 .focus-banner img {
   margin-top: 20px;
   border-radius: 48px;
+}
+
+/* Get in touch styling */
+.getin-sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.getin-sec h2 {
+  font-size: 97px;
+  font-weight: 800;
+  max-width: 530px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.form .input-box label {
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.form .input-box input,
+.form .input-box textarea {
+  width: 100%;
+  padding: 20px 32px;
+  border: 1px solid #d6dded;
+  outline: none;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.form .input-box input::placeholder,
+.form .input-box textarea::placeholder {
+  font-size: 20px;
+  color: #0000006e;
+}
+
+.form .input-box textarea {
+  height: 135px;
+}
+
+/* Footer Styling */
+.footer {
+  padding: 120px 0;
+  background: #ffffff;
+  text-align: center;
+}
+
+.footer-contents {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 530px;
+  margin: 0 auto;
+}
+
+.footer-contents h2 {
+  font-size: 100px;
+  font-weight: 900;
+}
+
+.footer-contents p {
+  color: #8987a1;
+  font-size: 16px;
+}
+
+.footer-contents ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  margin-top: 10px;
+}
+
+.footer-contents ul li a {
+  color: #8987a1;
 }
